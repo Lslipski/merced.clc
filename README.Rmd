@@ -1,0 +1,22 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# merced.clc
+
+The goal of merced.clc is to provide a set of functions for loading reference 
+data and producing computations that are commonly used by the UC Merced Community
+and Labor Center. 
+
+

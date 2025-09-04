@@ -12,5 +12,13 @@ Depends:
     R (>= 3.5)
 LazyData: true
 Imports: 
-    dplyr
+    dplyr,
+    DT,
+    here,
+    magrittr
 URL: https://lslipski.github.io/merced.clc/
+Suggests: 
+    knitr,
+    rmarkdown,
+    tidyverse
+VignetteBuilder: knitr

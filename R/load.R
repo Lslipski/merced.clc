@@ -74,9 +74,11 @@ load_cv_counties <- function() {
 
 #' load_ca_regions
 #'
+#' @importFrom here here
 #' @returns a tibble containing a row for each county in California and a column for that
 #' countys region (code), region_name, county_name, county FIPS, and the county CDPH code.
 #' @export
 load_ca_regions <- function() {
-  load("data/ca_regions_fips.rda")
+  load(here::here("data/ca_regions_fips.rda"))
+  return(ca_regions_fips)
 }

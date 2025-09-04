@@ -1,0 +1,76 @@
+---
+title: "Reference Tables"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{reference_tables}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+```{r, include = FALSE}
+# note, currently using devtools::install() until package is installed formally
+library(merced.clc)
+library(tidyverse)
+```
+
+## California Regions
+
+`merced.clc::load_ca_regions()`
+
+```{r, include = TRUE, echo = FALSE}
+merced.clc::load_ca_regions() %>% 
+  merced.clc::dt_table()
+```
+
+
+## California Minimum Wage
+
+`load_ca_min_wage()`
+
+```{r, include = TRUE, echo = FALSE}
+merced.clc::load_ca_min_wage() %>%
+  merced.clc::dt_table(page = F)
+```
+
+
+## Farmworker Health Study Regions
+
+`load_fwhs_regions()`
+
+```{r, include = TRUE, echo = FALSE}
+merced.clc::load_fwhs_regions() %>%
+  dplyr::arrange(county_name) %>% 
+  merced.clc::dt_table()
+```
+
+
+
+## Central Valley Counties
+
+`load_cv_counties()`
+
+```{r, include = TRUE, echo = FALSE}
+merced.clc::load_cv_counties() %>% 
+  sort() %>% 
+  dplyr::as_tibble() %>% 
+  dplyr::rename(county_name = value) %>% 
+  merced.clc::dt_table(page = F)
+```
+
+
+
+
+
+
+
+
+
+
