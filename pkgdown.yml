@@ -1,8 +1,9 @@
 pandoc: 3.1.11
 pkgdown: 2.1.3
 pkgdown_sha: ~
-articles: {}
-last_built: 2025-09-04T17:10Z
+articles:
+  reference_tables: reference_tables.html
+last_built: 2025-09-04T18:49Z
 urls:
   reference: https://lslipski.github.io/merced.clc/reference
   article: https://lslipski.github.io/merced.clc/articles
