@@ -13,3 +13,4 @@ Depends:
 LazyData: true
 Imports: 
     dplyr
+URL: https://lslipski.github.io/merced.clc/
