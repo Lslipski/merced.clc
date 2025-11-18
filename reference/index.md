@@ -1,0 +1,34 @@
+# Package index
+
+## All functions
+
+- [`add_commas()`](https://lslipski.github.io/merced.clc/reference/add_commas.md)
+  : add_commas
+- [`ca_regions_fips`](https://lslipski.github.io/merced.clc/reference/ca_regions_fips.md)
+  : ca_regions_fips
+- [`dt_table()`](https://lslipski.github.io/merced.clc/reference/dt_table.md)
+  : dt_table
+- [`ipums_ca_only()`](https://lslipski.github.io/merced.clc/reference/ipums_ca_only.md)
+  : ipums_ca_only
+- [`ipums_clean_foodstmp()`](https://lslipski.github.io/merced.clc/reference/ipums_clean_foodstmp.md)
+  : ipums_clean_foodstmp
+- [`ipums_clean_hcovany()`](https://lslipski.github.io/merced.clc/reference/ipums_clean_hcovany.md)
+  : ipums_clean_hcovany
+- [`ipums_clean_hispan()`](https://lslipski.github.io/merced.clc/reference/ipums_clean_hispan.md)
+  : ipums_clean_hispan
+- [`ipums_clean_offpov()`](https://lslipski.github.io/merced.clc/reference/ipums_clean_offpov.md)
+  : ipums_clean_offpov
+- [`ipums_clean_race()`](https://lslipski.github.io/merced.clc/reference/ipums_clean_race.md)
+  : ipums_clean_race
+- [`ipums_clean_spmpov()`](https://lslipski.github.io/merced.clc/reference/ipums_clean_spmpov.md)
+  : ipums_clean_spmpov
+- [`ipums_get_ca_regions()`](https://lslipski.github.io/merced.clc/reference/ipums_get_ca_regions.md)
+  : ipums_get_ca_regions
+- [`load_ca_min_wage()`](https://lslipski.github.io/merced.clc/reference/load_ca_min_wage.md)
+  : load_ca_min_wage
+- [`load_ca_regions()`](https://lslipski.github.io/merced.clc/reference/load_ca_regions.md)
+  : load_ca_regions
+- [`load_cv_counties()`](https://lslipski.github.io/merced.clc/reference/load_cv_counties.md)
+  : load_cv_counties
+- [`load_fwhs_regions()`](https://lslipski.github.io/merced.clc/reference/load_fwhs_regions.md)
+  : load_fwhs_regions
