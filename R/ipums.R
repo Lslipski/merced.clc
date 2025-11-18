@@ -146,3 +146,26 @@ ipums_ca_only <- function(df) {
 }
 
 
+#' ipums_clean_race
+#'
+#' Adds a column called `race_text` df and returns
+#'
+#' @param df a tibble containing the IPUMS variable called `race`
+#'
+#' @returns tibble identical to original with additional `race_text` variable
+#' @export
+ipums_clean_race <- function(df) {
+  df %>%
+    dplyr::mutate(race_text = dplyr::case_when(race == 1 ~ "White",
+                                               race == 2 ~ "Black",
+                                               race == 3 ~ "American Indian or Alaska Native",
+                                               race == 4 ~ "Chinese",
+                                               race == 5 ~ "Japanese",
+                                               race == 6 ~ "Other Asian or Pacific Islander",
+                                               race == 7 ~ "Other race, nec",
+                                               race == 8 ~ "Two major races",
+                                               race == 9 ~ "Three or more major races",
+                                               TRUE ~ "ERROR"))
+}
+
+
