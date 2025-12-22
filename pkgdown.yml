@@ -3,7 +3,7 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   reference_tables: reference_tables.html
-last_built: 2025-11-18T19:02Z
+last_built: 2025-12-22T22:39Z
 urls:
   reference: https://lslipski.github.io/merced.clc/reference
   article: https://lslipski.github.io/merced.clc/articles

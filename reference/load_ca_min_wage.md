@@ -1,6 +1,7 @@
 # load_ca_min_wage
 
-load_ca_min_wage
+Sourced from: https://www.dol.gov/agencies/whd/minimum-wage/state#ca and
+https://www.dol.gov/agencies/whd/state/minimum-wage/history
 
 ## Usage
 
