@@ -1,10 +1,12 @@
 #' load_ca_min_wage
 #'
+#' Sourced from: https://www.dol.gov/agencies/whd/minimum-wage/state#ca and
+#' https://www.dol.gov/agencies/whd/state/minimum-wage/history
+#'
 #' @importFrom dplyr tribble
 #' @returns tibble with a row containing the year and the CA minimum wage for that year.
 #' @export
 load_ca_min_wage <- function() {
-  # source: https://www.dol.gov/agencies/whd/state/minimum-wage/history
 
   dplyr::tribble(~year, ~min_wage,
           2014, 9,
@@ -17,7 +19,8 @@ load_ca_min_wage <- function() {
           2021, 13,
           2022, 14,
           2023, 15.5,
-          2024, 16)
+          2024, 16,
+          2025, 16.50)
 }
 
 
