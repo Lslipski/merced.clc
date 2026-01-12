@@ -16,7 +16,7 @@ ca_regions_fips
 
 ### `ca_regions_fips`
 
-A tibble with 58 rows and 5 columns:
+A tibble with 58 rows and 7 columns:
 
 - region:
 
