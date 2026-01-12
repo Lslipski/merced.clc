@@ -84,6 +84,6 @@ load_cv_counties <- function() {
 #' the USDA commuting zone code, and the USDA commuting zone name.
 #' @export
 load_ca_regions <- function() {
-  load("data/ca_regions_fips.rda")
-  return(ca_regions_fips)
+  #ca_regions_fips = merced.clc::ca_regions_fips
+  return(merced.clc::ca_regions_fips)
 }

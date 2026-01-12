@@ -5,6 +5,10 @@ vignette: >
   %\VignetteIndexEntry{reference_tables}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
+html_document:
+  toc: true
+  toc_float: true
+  
 ---
 
 ```{r, include = FALSE}
