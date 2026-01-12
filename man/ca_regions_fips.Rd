@@ -14,16 +14,20 @@ A tibble with 58 rows and 5 columns:
 \item{county_name}{County Name}
 \item{county_fips}{County Federal Information Processing Standard code}
 \item{county_cdph}{County CA Department of Public Health code}
+\item{commuting_zone}{USDA 2020 Commuting Zone Code}
+\item{commuting_zone_name}{USDA 2020 Commuting Zone Name}
 }
 }
 }
 \source{
-\url{https://github.com/mkiang/excess_drug_overdoses/blob/main/code/utils.R}
+<https://github.com/mkiang/excess_drug_overdoses/blob/main/code/utils.R; https://ers.usda.gov/data-products/commuting-zones-and-labor-market-areas?cpid=email>
 }
 \usage{
 ca_regions_fips
 }
 \description{
-Basic California region and county information for grouping mortality geographies
+Basic California region and county information for grouping mortality geographies.
+Commuting zones from \href{https://ers.usda.gov/data-products/commuting-zones-and-labor-market-areas?cpid=email}{here}
+Region and county variables from \href{https://github.com/mkiang/excess_drug_overdoses/blob/main/code/utils.R}{here}
 }
 \keyword{datasets}
