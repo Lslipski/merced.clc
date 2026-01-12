@@ -5,7 +5,7 @@
 #' Region and county variables from [here](https://github.com/mkiang/excess_drug_overdoses/blob/main/code/utils.R)
 #'
 #' @format ## `ca_regions_fips`
-#' A tibble with 58 rows and 5 columns:
+#' A tibble with 58 rows and 7 columns:
 #' \describe{
 #'   \item{region}{Basic region number}
 #'   \item{region_name}{Basic region names}
