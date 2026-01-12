@@ -8,7 +8,8 @@ load_ca_regions()
 }
 \value{
 a tibble containing a row for each county in California and a column for that
-countys region (code), region_name, county_name, county FIPS, and the county CDPH code.
+countys region (code), region_name, county_name, county FIPS, the county CDPH code,
+the USDA commuting zone code, and the USDA commuting zone name.
 }
 \description{
 load_ca_regions

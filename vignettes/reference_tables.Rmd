@@ -26,7 +26,11 @@ library(tidyverse)
 `merced.clc::load_ca_regions()`
 
 ```{r, include = TRUE, echo = FALSE}
-merced.clc::load_ca_regions() %>% 
+# load(here::here("data/ca_regions_fips.rda")) %>% 
+#   merced.clc::dt_table()
+
+load(here::here("data/ca_regions_fips.rda"))
+ca_regions_fips %>% 
   merced.clc::dt_table()
 ```
 
