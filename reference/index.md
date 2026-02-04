@@ -8,6 +8,8 @@
   : ca_regions_fips
 - [`dt_table()`](https://lslipski.github.io/merced.clc/reference/dt_table.md)
   : dt_table
+- [`get_merced_color()`](https://lslipski.github.io/merced.clc/reference/get_merced_color.md)
+  : get_merced_color
 - [`ipums_ca_only()`](https://lslipski.github.io/merced.clc/reference/ipums_ca_only.md)
   : ipums_ca_only
 - [`ipums_clean_foodstmp()`](https://lslipski.github.io/merced.clc/reference/ipums_clean_foodstmp.md)
@@ -24,6 +26,8 @@
   : ipums_clean_spmpov
 - [`ipums_get_ca_regions()`](https://lslipski.github.io/merced.clc/reference/ipums_get_ca_regions.md)
   : ipums_get_ca_regions
+- [`list_merced_colors()`](https://lslipski.github.io/merced.clc/reference/list_merced_colors.md)
+  : list_merced_colors
 - [`load_ca_min_wage()`](https://lslipski.github.io/merced.clc/reference/load_ca_min_wage.md)
   : load_ca_min_wage
 - [`load_ca_regions()`](https://lslipski.github.io/merced.clc/reference/load_ca_regions.md)
